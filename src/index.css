@@ -1,0 +1,82 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  background-color: hsl(224, 25%, 17%);
+}
+
+.TitleText {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  font-size: larger;
+  display: inline;
+}
+.OtherTitleText {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  display: inline;
+  font-size: larger;
+}
+
+.HeaderDiv {
+  margin: 8px;
+  padding: auto;
+  border-radius: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  background-color: hsl(224, 100%, 8%);
+  color: hsl(213, 100%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.EditorDiv {
+  border-radius: 20px;
+  margin: 8px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  height: 92vh;
+  color: hsl(213, 100%, 94%);
+  background-color: hsl(224, 84%, 10%);
+}
+.EditorArea {
+  display: flex;
+  flex-direction: row;
+  color: hsl(223, 100%, 5%);
+  background-color: hsl(213, 100%, 94%);
+  padding: auto;
+  margin: 8px;
+  border-radius: 10px;
+  font-family: 'SF Mono', Courier, monospace;
+  max-height: fit-content;
+  width: auto;
+  height: max-content;
+}
+.toolbarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btns {
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 0px;
+  margin: 4px;
+  margin-top: 8px;
+  height: 40px;
+  color: hsl(213, 100%, 94%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: large;
+  background-color: hsl(224, 25%, 17%);
+}
+.btns:hover {
+  transition: 200ms;
+  background-color: hsl(213, 100%, 62%);
+}
